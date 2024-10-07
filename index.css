@@ -1,0 +1,75 @@
+.sneaker button{
+    font-size: 50px;
+    color: #ffffff;
+    width: 130px;
+    padding: 15px;
+    background-color:#0095ff;
+    border: none;
+    border-radius: 40px;
+}
+.sneaker button:hover{
+    width: 180px;
+    background-color:#007bd3;
+    transition: 0.3s;
+}
+.sneaker img{
+    border-radius:10px ;
+}
+.sneaker img:hover{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.534);
+    width: 104%;
+    transition: ease-in 0.3s;
+}
+.cleat img{
+    border-radius: 10px;
+}
+.cleat td{
+    padding: 20px;
+}
+.cleat img:hover{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.534);
+    width: 104%;
+    transition-duration: 1s;
+}
+.nike_cleat{
+    font-size: 50px;
+    color: #ffffff;
+    width: 130px;
+    padding: 15px;
+    background-color:#00aeff;
+    border: none;
+    border-radius: 40px;
+}
+.nike_cleat:hover{
+    width: 180px;
+    background-color:#0095ff;
+    transition: 1s;
+}
+.adidas_cleat{
+    font-size: 50px;
+    color: #ffffff;
+    width: 130px;
+    padding: 15px;
+    background-color:#858585;
+    border: none;
+    border-radius: 40px;
+}
+.adidas_cleat:hover{
+    width: 180px;
+    background-color:#232628;
+    transition: 1s;
+}
+.puma_cleat{
+    font-size: 50px;
+    color: #ffffff;
+    width: 130px;
+    padding: 15px;
+    background-color:#9564ff;
+    border: none;
+    border-radius: 40px;
+}
+.puma_cleat:hover{
+    width: 180px;
+    background-color:#712fff;
+    transition: 1s;
+}

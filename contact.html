@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>Contact us | Vera</title>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="shortcut icon" href="logo.PNG" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit] {
+            background-color: #00a2ff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+        .container label{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 50px;
+        }
+    </style>
+    <body>
+        <nav>
+            <center>
+            <table width="100%">
+                <tr>
+                    <th rowspan="2"><center><a href="index.html"><label>V<span style="color:#ff0000;">er</span>A</label></a></center></th>
+                    <th colspan="2" width="150px" height="60px"><img src="nike/logo.webp" width="20%"></th>
+                    <th colspan="2" width="150px"><img src="adidas/logo.png" width="20%"></th>
+                    <th colspan="2" width="150px"><img src="puma/logo.png" width="20%"></th>
+                    <th style="text-align: center;" rowspan="2" width="200px">
+                        <a href="#"><button>Sign In</button></a><br><br>
+                        <a href="contact.html"><button>Contact Us</button></a>
+                    </th>
+                </tr>
+                <tr>
+                        <td height="60px"><center><a href="nike_sneaker.html">Sneaker</a></center></td>
+                        <td><center><a href="nike_cleat.html">Cleat</a></center></td>
+                        <td><center><a href="adidas_sneaker.html">Sneaker</a></center></td>
+                        <td><center><a href="adidas_cleat.html">Cleat</a></center></td>
+                        <td colspan="2"><center><a href="puma_cleat.html">Cleat</a></center></td>
+                </tr>
+            </table>
+            </center>
+        </nav>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="logo.PNG" style="width:100%">
+                </div>
+                <div class="column">
+                    <br><br>
+                    <form action="/action_page.php">
+                        <label>First Name</label>
+                        <input type="text" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <input type="text" placeholder="Your Country">
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <center>
+                <table>
+                    <tr>
+                        <td><center><a href="index.html"><label>V<span style="color:#ff0000;">er</span>A</label></a></center></td>
+                        <td>
+                           <h2>Sneaker</h2>
+                           <br>
+                           <ul>
+                                <li  style="text-decoration: none;"><a href="nike_sneaker.html"><img src="nike/logo.webp" width="20%"></a></li>
+                                <br>
+                                <li><a href="adidas_sneaker.html"><img src="adidas/logo.png" width="20%"></a></li>
+                                <br><br>
+                           </ul>
+                        </td>
+                        <td>
+                            <h2>Cleat</h2>
+                
+                           <ul>
+                                <li><a href="nike_cleat.html"><img src="nike/logo.webp" width="20%"></a></li>
+                                <br>
+                                <li><a href="adidas_cleat.html"><img src="adidas/logo.png" width="20%"></a></li>
+                                <br>
+                                <li><a href="puma_cleat.html"><img src="puma/logo.png" width="20%"></a></li>
+                                <br>
+                            </ul>
+                        </td>
+                        <td>
+                            <h2>Contact Us</h2>
+                            <br>
+                           <ul>
+                                <li style="color: #ffffff; font-size: 18px;">+959 498 495 483</li>
+                                <br>
+                                <li style="color: #ffffff; font-size: 18px;">+959 849 934 439</li>
+                                <br>
+                                <li>
+                                    <form action="">
+                                        <input type="email" placeholder="Email">
+                                        <button>Mail us</button>
+                                    </form>
+                                </li>
+                           </ul>
+                        </td>
+                        <td>
+                            <h2>Services</h2>
+                            <br>
+                           <ul>
+                                <li><a href="#">Return in shop</a></li>
+                                <br>
+                                <li><a href="#">Discounts</a></li>
+                                <br>
+                                <li><a href="#">Membership</li>
+                                <br>
+                           </ul>
+                        </td>
+                    </tr>
+                    <tr><td colspan="5">
+                        <center>&copy copyright <a href="index.html"><label>V<span style="color:#ff0000;">er</span>A</label></a> <a href="#" style="margin-left:2%;">All right reserved.  Privacy Policy | Terms of Use</a></center>
+                    </td></tr>
+                </table>
+            </center>
+        </footer>
+    </body>
+</html>

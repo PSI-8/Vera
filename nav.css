@@ -1,0 +1,81 @@
+nav{
+    border-radius: 16px;
+    background: linear-gradient(#fffb00,rgb(68, 158, 255));
+}
+table{
+   border-radius: 16px;
+}
+label{
+    font-size: 50px;
+    color: rgb(0, 123, 255);
+    font-weight: 600;
+}
+th button{
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: #fffb00;
+    color: #000000; 
+    border-radius:16px; 
+    border-style: none;
+}
+th button:hover{
+    color: #ffffff;
+    background-color: rgb(0, 123, 255);
+    transition: 0.7s;
+}
+th img{
+    padding: 5px 5px;
+}
+body{
+    font-family: Arial;
+}
+th a{
+    text-decoration: none;
+    font-size: 25px;
+}
+td a{
+    color: #ffffff ;
+    font-size: 20px;
+    text-decoration: none;
+}
+td{
+    width:200px;
+}
+nav td a:hover{
+    text-decoration: underline;
+    background-color: rgb(0, 123, 255);
+    padding: 10px 10px;
+    border-radius: 16px;
+    transition: 1s;
+}
+footer table{
+    width: 100%;
+    background: linear-gradient(rgb(68, 158, 255),#ffe344);
+}
+footer h2{
+    color: #ffffff;
+}
+footer form input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+footer form input:hover{
+    border: 2px solid #ae3320 ;
+    transition: 1s;
+}
+footer button{
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #005eff;
+    border-radius: 16px;
+    border: none;
+}
+footer button:hover{
+    background-color: #1a1a56;
+    transition: 1s;
+}
+footer li{
+    list-style: none;
+}
